@@ -12,6 +12,6 @@ with wave.open('test_silence.wav', 'w') as wav_file:
     wav_file.setnchannels(1)
     wav_file.setsampwidth(2)
     wav_file.setframerate(sample_rate)
-    wav_file.writeframes(audio_data.tobytes())
+    wav_file.writeframes(audio_data.tobytes())wangchao
 
 print("创建了测试音频文件: test_silence.wav")
